@@ -1,11 +1,11 @@
-/**
- * This file is just a silly example to show everything working in the browser.
- * When you're ready to start on your site, clear the file. Happy hacking!
- **/
+// import { v4 as uuidV4 } from 'uuid'
 
-import confetti from 'canvas-confetti';
+// console.log(uuidV4());
 
-confetti.create(document.getElementById('canvas') as HTMLCanvasElement, {
-  resize: true,
-  useWorker: true,
-})({ particleCount: 200, spread: 200 });
+const listUl = document.querySelector<HTMLUListElement>("#list")
+// const newTaskForm = document.querySelector<HTMLFormElement>("#new-task-form")
+
+// when using id - follow as below
+const newTaskForm = document.getElementById("#new-task-form") as HTMLFormElement | null
+const newTaskTitleInput = document.querySelector<HTMLInputElement>("#new-task-title")
+
