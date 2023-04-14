@@ -1,4 +1,9 @@
-# New Project
+# TypeScript SnowPack project
+practice using SnowPack
+
+## Preview link
+- https://y8wic1-8080.csb.app/
+
 
 > ✨ Bootstrapped with Create Snowpack App (CSA).
 
