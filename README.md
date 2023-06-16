@@ -1,5 +1,5 @@
 # TypeScript SnowPack project
-practice using SnowPack
+Todo app using SnowPack
 
 ## Preview link
 - https://y8wic1-8080.csb.app/
